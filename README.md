@@ -34,8 +34,10 @@ criterion = nn.CrossEntropyLoss()
 optimizer = optim.Adam(model.parameters(), lr=0.001)
 
 # Training loop, evaluation, and testing handled via defined functions
+```
 
-### 📊 Results Summary
+
+### 📊 Results Summary:
 
 - **Training set size:** 21,299 images  
 - **Validation set size:** 4,564 images  
